@@ -1,0 +1,13 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -DL -O11111114 -fo8 -N"C:\Users\mluca\OneDrive\Documentos\UNIFESP\UC's\2024-2\SE\PIC\ConversorADC_PWM\ConversorADC_PWM.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\mluca\OneDrive\Documentos\UNIFESP\UC's\2024-2\SE\PIC\ConversorADC_PWM\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" "ConversorADC_PWM.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_ADC_A_D.mcl" "__Lib_PWM_c21.mcl"	 
+hint: 0	1139	Available RAM: 1515 [bytes], Available ROM: 32768 [bytes]	 
+diagnostics: 0	122	Compilation Started	ConversorADC_PWM.c
+hint: 26	1171	Statement "Delay_10us;" has no effect, missing "( )" to become function call	ConversorADC_PWM.c
+diagnostics: 28	123	Compiled Successfully	ConversorADC_PWM.c
+hint: 10	1164	Variable 'uiValorAD' has been eliminated by optimizer	ConversorADC_PWM.c
+diagnostics: 0	127	All files Compiled in 109 ms	 
+hint: 0	1144	Used RAM (bytes): 5 (1%)  Free RAM (bytes): 1510 (99%)	Used RAM (bytes): 5 (1%)  Free RAM (bytes): 1510 (99%)
+hint: 0	1144	Used ROM (bytes): 1187 (4%)  Free ROM (bytes): 31581 (96%)	Used ROM (bytes): 1187 (4%)  Free ROM (bytes): 31581 (96%)
+diagnostics: 0	125	Project Linked Successfully	ConversorADC_PWM.mcppi
+diagnostics: 0	128	Linked in 32 ms	 
+diagnostics: 0	129	Project 'ConversorADC_PWM.mcppi' completed: 297 ms	 
+diagnostics: 0	103	Finished successfully: 25 fev 2025, 18:03:04	ConversorADC_PWM.mcppi

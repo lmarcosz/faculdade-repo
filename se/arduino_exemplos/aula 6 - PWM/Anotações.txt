@@ -1,0 +1,28 @@
+PWN: sinal quadrado para controlar a potência para certos tipos de componentes
+conectados no arduino (motor)
+
+
+Controlar a corrente que passa pela carga (entre I=0 e Imax)
+fechando e abrindo uma chave por uma porcentagem de tempo do período
+
+
+Cálculo de tensão média
+	- Duty Cycle (considerar o pulso positivo durante o período)
+	- A porcentagem do tempo de pulso em relação ao período é o Duty Cycle
+
+
+==== PWN Via Hardware ====
+- Usa-se um CI 555
+
+
+
+AtMega2560
+- Possui 15 pinos PWN
+	- 4 canais com resolução de 8 bits
+	- 11 canais com resolução programável de 2 a 16 bits
+
+
+Para um sinal PWN, utiliza-se a função analogWrite(pino, valor)
+- pino PWN do Arduino (int)
+- valor: o duty cycle (int)
+- Resolução: 8bits

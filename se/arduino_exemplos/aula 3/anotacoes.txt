@@ -1,0 +1,20 @@
+MICROCONTROLADORES AVR ATmega
+
+
+- Arquitetura Harvard Modificada
+
+	- As variáveis são armazenadas na RAM;
+	- As constantes são armazenadas na Flash (ROM);
+
+- MIPS tambpem é uma unidade de medida 
+(Milhões de Instruções por Segundo) [1MIPS a cada 1MHz]
+
+- Gravação do programa no Arduino - ICSP (In-System)
+  e Serial/USB
+
+
+
+- Watchdog timer
+
+- 
+

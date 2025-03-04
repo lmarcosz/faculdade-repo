@@ -1,0 +1,15 @@
+
+
+
+3 registradores
+Cada registrador tem 8 bits (cada dele posição é uma flag)
+x => 
+- DDRx : controla o fluxo do dado, ou seja, define
+	se o pino vai ser entrada ou saída (ligado a um transistor);
+
+- PORTx: armazena a saída;
+
+-PINx: armazena a entrada;
+
+
+

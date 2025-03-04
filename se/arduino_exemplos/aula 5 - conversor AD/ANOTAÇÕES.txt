@@ -1,0 +1,18 @@
+Tensão de Ref (é a tensão de fundo de escala)
+	- Arduino => Vref = 5V
+
+Resolução (quantidade de bits para representar o valor de tensão lido)
+	- No arduino: 10bits
+
+
+
+
+Com sensor
+
+(TEMP)=> SENSOR => (ADC)=> V(tensão lida) => X(temp lida)
+
+
+Função do sensor: olhar no datasheet
+	- Na bancada, usaremos o LM35 (Sensor de temperatura)
+	- No tinkercad, o sensor é o TMP36
+

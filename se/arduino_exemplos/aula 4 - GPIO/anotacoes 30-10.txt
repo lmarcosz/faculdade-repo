@@ -1,0 +1,14 @@
+=== Pino como entrada ===
+	- Alta impedância
+	- Botões, chaves
+
+	- Resistores Pull-Up (botão = HIGH => entrada = LOW)
+	- Resistores Pull-Down (botão = HIGH => entrada = HIGH)
+	- Resistor interno Pull-up (interno no Arduino)
+
+	- Bounce do botão: 
+	- Debounce por software ou por hardware
+
+=== Pino como saída ===
+	- Baixa impedância
+	- Tem limite de corrente

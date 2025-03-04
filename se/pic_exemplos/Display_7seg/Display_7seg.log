@@ -1,0 +1,11 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -DL -O11111114 -fo8 -N"C:\Users\mluca\OneDrive\Documentos\UNIFESP\UC's\2024-2\SE\PIC\Display_7seg\Display_7seg.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\mluca\OneDrive\Documentos\UNIFESP\UC's\2024-2\SE\PIC\Display_7seg\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" "Display_7seg.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 1515 [bytes], Available ROM: 32768 [bytes]	 
+diagnostics: 0	122	Compilation Started	Display_7seg.c
+diagnostics: 30	123	Compiled Successfully	Display_7seg.c
+diagnostics: 0	127	All files Compiled in 157 ms	 
+hint: 0	1144	Used RAM (bytes): 0 (1%)  Free RAM (bytes): 1515 (99%)	Used RAM (bytes): 0 (1%)  Free RAM (bytes): 1515 (99%)
+hint: 0	1144	Used ROM (bytes): 156 (1%)  Free ROM (bytes): 32612 (99%)	Used ROM (bytes): 156 (1%)  Free ROM (bytes): 32612 (99%)
+diagnostics: 0	125	Project Linked Successfully	Display_7seg.mcppi
+diagnostics: 0	128	Linked in 93 ms	 
+diagnostics: 0	129	Project 'Display_7seg.mcppi' completed: 406 ms	 
+diagnostics: 0	103	Finished successfully: 25 fev 2025, 14:12:56	Display_7seg.mcppi

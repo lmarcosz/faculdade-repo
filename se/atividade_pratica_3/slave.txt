@@ -1,0 +1,74 @@
+#include <Wire.h>
+
+const int myadress = 8;
+const int Led = 9;
+const int Buzzer = 10;
+const int Led_INT = 13;
+const int LM35 = A0;
+
+int led;
+
+bool Buzzer_State = LOW;
+bool LedState = LOW;
+bool Led_int_State = 0;
+float temperatura;
+
+void setup() {
+  Serial.begin(9600);
+  Wire.begin(myadress);
+  Wire.onReceive(receiveEvent); 
+  pinMode(Led, OUTPUT);
+  pinMode(Buzzer, OUTPUT);
+  pinMode(Led_INT, OUTPUT);
+  analogReference(INTERNAL1V1); 
+}
+
+void loop() {
+ 
+  digitalWrite(Led, LedState);
+  digitalWrite(Buzzer, Buzzer_State);
+  digitalWrite(Led_INT, Led_int_State);
+
+  
+  int LM_35 = analogRead(LM35);
+  temperatura = LM_35 * 0.1075268817; 
+}
+
+void receiveEvent(int howMany) {
+
+  int i = Wire.read(); 
+  switch (i) {
+    case 0: 
+      if (Wire.available()) {
+        Buzzer_State = Wire.read();
+      }
+      break;
+
+    case 1: 
+      if (Wire.available()) {
+        LedState = Wire.read();
+      }
+      break;
+
+    case 2: 
+      if (Wire.available()) {
+        led = Wire.read();
+        Serial.println(led);
+      if(Led_int_State == 0){
+        Led_int_State = 1;
+      }
+      else{
+        Led_int_State = 0;
+      }
+      }
+      break;
+
+    default:
+      break;
+  }
+}
+
+void requestEvent() {
+  int tempInt = temperatura; 
+  Wire.write(tempInt); 
+}
