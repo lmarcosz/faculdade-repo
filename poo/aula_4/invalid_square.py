@@ -1,0 +1,2 @@
+class InvalidSquareError(Exception):
+    pass

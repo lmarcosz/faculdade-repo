@@ -1,0 +1,2 @@
+class RemoveTodoListError(Exception):
+    pass
