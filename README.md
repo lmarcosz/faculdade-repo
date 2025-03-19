@@ -1,5 +1,5 @@
 # Repositório da faculdade
-Repositório para códigos desenvolvidos em algumas disciplinas durante minha graduação em Engenharia de Computação no ICT-UNIFESP.
+Repositório para códigos desenvolvidos em algumas disciplinas durante minha graduação no curso Interdisciplinar em Ciência e Tecnologia no ICT-UNIFESP.
 
 |Sigla|Disciplina|
 |-----|-----------|
